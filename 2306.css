@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 15px;
+}
+.header .logo {
+  font-size: 25px;
+  font-family: "Sriracha", cursive;
+  color: #000;
+  /* text-decoration: none; */
+  margin-left: 30px;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin-right: 40px;
+  gap: 25px;
+  font-size: 25px;
+  
+}
+.intro{
+    text-align: center;
+    background-image: url("OIP.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    font-size: 40px;
+    
+}
+.header2{
+    margin: 30px 0px;
+}
+#img{
+    height: 500px;
+    width: 30%;
+}
+.aboutme{
+    display: flex;
+    gap: 15px;
+}
+.about-me-text{
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(56, 56, 95);
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.footer2{
+    background-color: rgb(22, 22, 48);
+    height: 50px;
+    width: 100%;
+    color: rgb(105, 116, 122);
+    text-align: center;
+    /* margin-top: 15px; */
+}
+.map{
+    /* height:20px;
+    width: 100px; */
+    float: right;
+    margin-right:10px ;
+    
+}
+.footer3{
+    color: bisque;
+    text-align: center;
+}
